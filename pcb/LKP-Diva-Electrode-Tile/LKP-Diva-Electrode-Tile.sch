@@ -19,7 +19,7 @@ L Connector_Generic:Conn_01x01 J10
 U 1 1 5D3A4BAB
 P 6900 3700
 F 0 "J10" H 6980 3742 50  0000 L CNN
-F 1 "Electrode 1" H 6980 3651 50  0000 L CNN
+F 1 "Electrode 0" H 6980 3651 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 3700 50  0001 C CNN
 F 3 "~" H 6900 3700 50  0001 C CNN
 	1    6900 3700
@@ -30,7 +30,7 @@ L Connector_Generic:Conn_01x01 J11
 U 1 1 5D3A4F45
 P 6900 3900
 F 0 "J11" H 6980 3942 50  0000 L CNN
-F 1 "Electrode 3" H 6980 3851 50  0000 L CNN
+F 1 "Electrode 2" H 6980 3851 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 3900 50  0001 C CNN
 F 3 "~" H 6900 3900 50  0001 C CNN
 	1    6900 3900
@@ -41,7 +41,7 @@ L Connector_Generic:Conn_01x01 J12
 U 1 1 5D3A506F
 P 6900 4100
 F 0 "J12" H 6980 4142 50  0000 L CNN
-F 1 "Electrode 5" H 6980 4051 50  0000 L CNN
+F 1 "Electrode 4" H 6980 4051 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 4100 50  0001 C CNN
 F 3 "~" H 6900 4100 50  0001 C CNN
 	1    6900 4100
@@ -52,7 +52,7 @@ L Connector_Generic:Conn_01x01 J13
 U 1 1 5D3A5109
 P 6900 4300
 F 0 "J13" H 6980 4342 50  0000 L CNN
-F 1 "Electrode 7" H 6980 4251 50  0000 L CNN
+F 1 "Electrode 6" H 6980 4251 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 4300 50  0001 C CNN
 F 3 "~" H 6900 4300 50  0001 C CNN
 	1    6900 4300
@@ -63,7 +63,7 @@ L Connector_Generic:Conn_01x01 J14
 U 1 1 5D3A5243
 P 6900 4500
 F 0 "J14" H 6980 4542 50  0000 L CNN
-F 1 "Electrode 9" H 6980 4451 50  0000 L CNN
+F 1 "Electrode 8" H 6980 4451 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 4500 50  0001 C CNN
 F 3 "~" H 6900 4500 50  0001 C CNN
 	1    6900 4500
@@ -74,7 +74,7 @@ L Connector_Generic:Conn_01x01 J15
 U 1 1 5D3A545D
 P 6900 4700
 F 0 "J15" H 6980 4742 50  0000 L CNN
-F 1 "Electrode 11" H 6980 4651 50  0000 L CNN
+F 1 "Electrode 10" H 6980 4651 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 4700 50  0001 C CNN
 F 3 "~" H 6900 4700 50  0001 C CNN
 	1    6900 4700
@@ -85,7 +85,7 @@ L Connector_Generic:Conn_01x01 J16
 U 1 1 5D3A5797
 P 6900 4900
 F 0 "J16" H 6980 4942 50  0000 L CNN
-F 1 "Electrode 13" H 6980 4851 50  0000 L CNN
+F 1 "Electrode 12" H 6980 4851 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 4900 50  0001 C CNN
 F 3 "~" H 6900 4900 50  0001 C CNN
 	1    6900 4900
@@ -96,7 +96,7 @@ L Connector_Generic:Conn_01x01 J17
 U 1 1 5D3A5841
 P 6900 5100
 F 0 "J17" H 6980 5142 50  0000 L CNN
-F 1 "Electrode 15" H 6980 5051 50  0000 L CNN
+F 1 "Electrode 14" H 6980 5051 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 6900 5100 50  0001 C CNN
 F 3 "~" H 6900 5100 50  0001 C CNN
 	1    6900 5100
@@ -154,7 +154,7 @@ L Connector_Generic:Conn_01x01 J7
 U 1 1 5D3A5330
 P 5200 4800
 F 0 "J7" H 5280 4842 50  0000 L CNN
-F 1 "Electrode 10" H 5280 4751 50  0000 L CNN
+F 1 "Electrode 11" H 5280 4751 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 4800 50  0001 C CNN
 F 3 "~" H 5200 4800 50  0001 C CNN
 	1    5200 4800
@@ -165,7 +165,7 @@ L Connector_Generic:Conn_01x01 J9
 U 1 1 5D3A5804
 P 5200 5200
 F 0 "J9" H 5280 5242 50  0000 L CNN
-F 1 "Electrode 14" H 5280 5151 50  0000 L CNN
+F 1 "Electrode 15" H 5280 5151 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 5200 50  0001 C CNN
 F 3 "~" H 5200 5200 50  0001 C CNN
 	1    5200 5200
@@ -176,7 +176,7 @@ L Connector_Generic:Conn_01x01 J3
 U 1 1 5D3A4D58
 P 5200 4000
 F 0 "J3" H 5280 4042 50  0000 L CNN
-F 1 "Electrode 2" H 5280 3951 50  0000 L CNN
+F 1 "Electrode 3" H 5280 3951 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 4000 50  0001 C CNN
 F 3 "~" H 5200 4000 50  0001 C CNN
 	1    5200 4000
@@ -187,7 +187,7 @@ L Connector_Generic:Conn_01x01 J5
 U 1 1 5D3A50BC
 P 5200 4400
 F 0 "J5" H 5280 4442 50  0000 L CNN
-F 1 "Electrode 6" H 5280 4351 50  0000 L CNN
+F 1 "Electrode 7" H 5280 4351 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 4400 50  0001 C CNN
 F 3 "~" H 5200 4400 50  0001 C CNN
 	1    5200 4400
@@ -198,7 +198,7 @@ L Connector_Generic:Conn_01x01 J6
 U 1 1 5D3A51A6
 P 5200 4600
 F 0 "J6" H 5280 4642 50  0000 L CNN
-F 1 "Electrode 8" H 5280 4551 50  0000 L CNN
+F 1 "Electrode 9" H 5280 4551 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 4600 50  0001 C CNN
 F 3 "~" H 5200 4600 50  0001 C CNN
 	1    5200 4600
@@ -209,7 +209,7 @@ L Connector_Generic:Conn_01x01 J2
 U 1 1 5D3A3F85
 P 5200 3800
 F 0 "J2" H 5280 3842 50  0000 L CNN
-F 1 "Electrode 0" H 5280 3751 50  0000 L CNN
+F 1 "Electrode 1" H 5280 3751 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 3800 50  0001 C CNN
 F 3 "~" H 5200 3800 50  0001 C CNN
 	1    5200 3800
@@ -220,7 +220,7 @@ L Connector_Generic:Conn_01x01 J8
 U 1 1 5D3A54FA
 P 5200 5000
 F 0 "J8" H 5280 5042 50  0000 L CNN
-F 1 "Electrode 12" H 5280 4951 50  0000 L CNN
+F 1 "Electrode 13" H 5280 4951 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 5000 50  0001 C CNN
 F 3 "~" H 5200 5000 50  0001 C CNN
 	1    5200 5000
@@ -231,7 +231,7 @@ L Connector_Generic:Conn_01x01 J4
 U 1 1 5D3A5022
 P 5200 4200
 F 0 "J4" H 5280 4242 50  0000 L CNN
-F 1 "Electrode 4" H 5280 4151 50  0000 L CNN
+F 1 "Electrode 5" H 5280 4151 50  0000 L CNN
 F 2 "private:CapSense_Electrode_14x38mm" H 5200 4200 50  0001 C CNN
 F 3 "~" H 5200 4200 50  0001 C CNN
 	1    5200 4200

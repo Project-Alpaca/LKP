@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 9)
     (tracks 0)
     (modules 19)
     (nets 18)
@@ -334,12 +334,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3ADC96)
-    (at 273.4375 104)
+    (at 257.81247 104)
     (path "/5D3A5841")
     (fp_text reference "J17" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 15" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 14" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -347,12 +347,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8ED)
-    (at 242.1875 104)
+    (at 226.56243 104)
     (path "/5D3A5797")
     (fp_text reference "J16" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 13" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 12" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -360,12 +360,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8E8)
-    (at 210.9375 104)
+    (at 195.3125 104)
     (path "/5D3A545D")
     (fp_text reference "J15" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 11" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 10" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -373,12 +373,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8E3)
-    (at 179.6875 104)
+    (at 164.0625 104)
     (path "/5D3A5243")
     (fp_text reference "J14" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 9" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 8" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -386,12 +386,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8DE)
-    (at 148.4375 104)
+    (at 132.81231 104)
     (path "/5D3A5109")
     (fp_text reference "J13" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 7" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 6" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -399,12 +399,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8D9)
-    (at 117.1875 104)
+    (at 101.5625 104)
     (path "/5D3A506F")
     (fp_text reference "J12" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 5" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 4" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -412,12 +412,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8D4)
-    (at 85.9375 104)
+    (at 70.31223 104)
     (path "/5D3A4F45")
     (fp_text reference "J11" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 3" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 2" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -425,12 +425,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA8CF)
-    (at 54.6875 104)
+    (at 39.06219 104)
     (path "/5D3A4BAB")
     (fp_text reference "J10" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 1" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 0" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -438,12 +438,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA867)
-    (at 257.8125 104)
+    (at 273.43749 104)
     (path "/5D3A5804")
     (fp_text reference "J9" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 14" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 15" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -451,12 +451,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA862)
-    (at 226.5625 104)
+    (at 242.18745 104)
     (path "/5D3A54FA")
     (fp_text reference "J8" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 12" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 13" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -464,12 +464,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA85D)
-    (at 195.3125 104)
+    (at 210.93741 104)
     (path "/5D3A5330")
     (fp_text reference "J7" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 10" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 11" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -477,12 +477,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA858)
-    (at 164.0625 104)
+    (at 179.68737 104)
     (path "/5D3A51A6")
     (fp_text reference "J6" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 8" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 9" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -490,12 +490,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA853)
-    (at 132.8125 104)
+    (at 148.43733 104)
     (path "/5D3A50BC")
     (fp_text reference "J5" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 6" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 7" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -503,12 +503,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA84E)
-    (at 101.5625 104)
+    (at 117.18729 104)
     (path "/5D3A5022")
     (fp_text reference "J4" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 4" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 5" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -516,12 +516,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA849)
-    (at 70.3125 104)
+    (at 85.93725 104)
     (path "/5D3A4D58")
     (fp_text reference "J3" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 2" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 3" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -529,12 +529,12 @@
   )
 
   (module "private:CapSense_Electrode_14x38mm" (layer "F.Cu") (tedit 5D3A5CF2) (tstamp 5D3AA844)
-    (at 39.0625 104)
+    (at 54.68721 104)
     (path "/5D3A3F85")
     (fp_text reference "J2" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Electrode 0" (at 0 -0.5) (layer "F.Fab")
+    (fp_text value "Electrode 1" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075)
@@ -548,9 +548,6 @@
   (gr_poly (pts (xy 25.75 97) (xy 24.75 98) (xy 26.75 98)) (layer "F.SilkS") (width 0.1))
   (gr_text "Left" (at 29.25 97.5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "Left Side" (at 43.25 158 180) (layer "B.Mask")
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "LKP-Diva Electrode Tile\n1x16 V1.0" (at 156.25 104) (layer "B.SilkS")
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
