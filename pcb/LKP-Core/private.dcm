@@ -48,4 +48,9 @@ K Cypress Microcontroller Arm CapSense IDAC LCD CAN
 F https://www.cypress.com/file/139956/download
 $ENDCMP
 #
+$CMP VDDIO
+D Power symbol creates a global label with name "VDDIO"
+K power-flag
+$ENDCMP
+#
 #End Doc Library
