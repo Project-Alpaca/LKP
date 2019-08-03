@@ -1,4 +1,4 @@
-update=7/26/2019 2:17:09 AM
+update=8/2/2019 11:23:54 PM
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=CapSense
-Clearance=0.4
+Clearance=0.25
 TrackWidth=0.1524
 ViaDiameter=0.6
 ViaDrill=0.3
