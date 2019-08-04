@@ -952,7 +952,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3600 2950 3600
 Text Label 3200 4100 2    50   ~ 0
-S0_SH
+S1_SH
 Wire Wire Line
 	3200 4100 2950 4100
 $Comp
