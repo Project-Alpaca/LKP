@@ -603,8 +603,6 @@ Text Label 6700 2500 2    50   ~ 0
 INT
 Text Label 7200 2600 2    50   ~ 0
 LED
-Text Label 4450 4000 0    50   ~ 0
-LED_STAT
 Wire Wire Line
 	6700 3200 6450 3200
 Wire Wire Line
@@ -1092,45 +1090,6 @@ Wire Wire Line
 	4000 3000 4850 3000
 Wire Wire Line
 	4000 3100 4850 3100
-$Comp
-L Device:LED D1
-U 1 1 5D6D02DC
-P 3700 4150
-F 0 "D1" H 3693 4369 50  0000 C CNN
-F 1 "Yellow" H 3693 4276 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 3700 4150 50  0001 C CNN
-F 3 "~" H 3700 4150 50  0001 C CNN
-	1    3700 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 4000 4200 4150
-Wire Wire Line
-	4200 4000 4850 4000
-$Comp
-L power:GND #PWR01
-U 1 1 5D6DFC49
-P 3550 4150
-F 0 "#PWR01" H 3550 3900 50  0001 C CNN
-F 1 "GND" V 3555 4020 50  0000 R CNN
-F 2 "" H 3550 4150 50  0001 C CNN
-F 3 "" H 3550 4150 50  0001 C CNN
-	1    3550 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 5D6ECD34
-P 3950 4150
-F 0 "R1" V 3751 4150 50  0000 C CNN
-F 1 "1k" V 3844 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 4150 50  0001 C CNN
-F 3 "~" H 3950 4150 50  0001 C CNN
-	1    3950 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 4150 4200 4150
 Wire Wire Line
 	3500 950  3500 1050
 Wire Wire Line
@@ -1268,8 +1227,6 @@ Wire Notes Line
 Text Notes 1050 2950 0    50   ~ 0
 Sensor Interconnects
 Wire Notes Line
-	8200 3350 10050 3350
-Wire Notes Line
 	10050 3350 10050 4150
 Wire Notes Line
 	10050 4150 8200 4150
@@ -1278,10 +1235,10 @@ Wire Notes Line
 Text Notes 8250 3300 0    50   ~ 0
 I/O
 $Comp
-L Device:D_Schottky_Small D2
+L Device:D_Schottky_Small D1
 U 1 1 5D93FA0B
 P 3700 1050
-F 0 "D2" H 3700 950 50  0000 C CNN
+F 0 "D1" H 3700 950 50  0000 C CNN
 F 1 "MBR0520L" H 3700 1150 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" V 3700 1050 50  0001 C CNN
 F 3 "~" V 3700 1050 50  0001 C CNN
@@ -1360,4 +1317,5 @@ Wire Wire Line
 Wire Wire Line
 	4400 1400 4050 1400
 Connection ~ 4050 1400
+NoConn ~ 4850 4000
 $EndSCHEMATC
