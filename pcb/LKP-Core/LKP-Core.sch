@@ -518,20 +518,13 @@ F 4 "4D02WGJ0561TCE" V 4600 2600 20  0000 C CNN "Part Number"
 	1    4400 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6450 3500 6800 3500
-Wire Wire Line
-	6800 3400 6450 3400
-Text Label 6800 3500 2    50   ~ 0
+Text Label 4500 3500 0    50   ~ 0
 I2C_SDA
-Text Label 6800 3400 2    50   ~ 0
+Text Label 4500 3400 0    50   ~ 0
 I2C_SCL
-NoConn ~ 4850 3500
-NoConn ~ 4850 3400
 NoConn ~ 6450 4600
 NoConn ~ 6450 4500
 NoConn ~ 6450 4400
-NoConn ~ 6450 4300
 NoConn ~ 6450 4200
 Wire Wire Line
 	6700 5500 6450 5500
@@ -597,9 +590,7 @@ F 4 "4D02WGJ0561TCE" V 7100 3100 20  0000 C CNN "Part Number"
 	1    6900 3100
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6700 2500 6450 2500
-Text Label 6700 2500 2    50   ~ 0
+Text Label 6700 4300 2    50   ~ 0
 INT
 Text Label 7200 2600 2    50   ~ 0
 LED
@@ -1141,56 +1132,41 @@ $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5D7937F4
-P 8800 3600
-F 0 "#PWR021" H 8800 3350 50  0001 C CNN
-F 1 "GND" V 8805 3470 50  0000 R CNN
-F 2 "" H 8800 3600 50  0001 C CNN
-F 3 "" H 8800 3600 50  0001 C CNN
-	1    8800 3600
+P 8850 3950
+F 0 "#PWR021" H 8850 3700 50  0001 C CNN
+F 1 "GND" V 8855 3820 50  0000 R CNN
+F 2 "" H 8850 3950 50  0001 C CNN
+F 3 "" H 8850 3950 50  0001 C CNN
+	1    8850 3950
 	0    -1   -1   0   
 $EndComp
-Text Label 8800 4000 2    50   ~ 0
+Text Label 8850 3600 2    50   ~ 0
 I2C_SCL
 Wire Wire Line
-	8800 3600 8450 3600
-Wire Wire Line
-	8800 4000 8450 4000
-Text Label 8800 4100 2    50   ~ 0
+	8850 3600 8500 3600
+Text Label 8850 3700 2    50   ~ 0
 I2C_SDA
 Wire Wire Line
-	8800 4100 8450 4100
+	8850 3700 8500 3700
 $Comp
 L power:GND #PWR022
 U 1 1 5D7B99DC
-P 8800 3800
-F 0 "#PWR022" H 8800 3550 50  0001 C CNN
-F 1 "GND" V 8805 3670 50  0000 R CNN
-F 2 "" H 8800 3800 50  0001 C CNN
-F 3 "" H 8800 3800 50  0001 C CNN
-	1    8800 3800
+P 8850 3400
+F 0 "#PWR022" H 8850 3150 50  0001 C CNN
+F 1 "GND" V 8855 3270 50  0000 R CNN
+F 2 "" H 8850 3400 50  0001 C CNN
+F 3 "" H 8850 3400 50  0001 C CNN
+	1    8850 3400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Conn_01x06_Male J4
-U 1 1 5D7BAAC8
-P 8250 3800
-F 0 "J4" H 8359 4186 50  0000 C CNN
-F 1 "IO" H 8359 4093 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8250 3800 50  0001 C CNN
-F 3 "~" H 8250 3800 50  0001 C CNN
-	1    8250 3800
-	1    0    0    -1  
-$EndComp
-Text Label 8800 3900 2    50   ~ 0
+Text Label 8850 3500 2    50   ~ 0
 INT
 Wire Wire Line
-	8450 3900 8800 3900
+	8500 3500 8850 3500
 Wire Wire Line
-	8800 3800 8450 3800
-Text Label 8800 3700 2    50   ~ 0
+	8850 3400 8500 3400
+Text Label 8850 4050 2    50   ~ 0
 LED
-Wire Wire Line
-	8800 3700 8450 3700
 $Comp
 L Device:R_Small R2
 U 1 1 5D84A554
@@ -1227,12 +1203,8 @@ Wire Notes Line
 Text Notes 1050 2950 0    50   ~ 0
 Sensor Interconnects
 Wire Notes Line
-	10050 3350 10050 4150
-Wire Notes Line
 	10050 4150 8200 4150
-Wire Notes Line
-	8200 4150 8200 3350
-Text Notes 8250 3300 0    50   ~ 0
+Text Notes 8250 3100 0    50   ~ 0
 I/O
 $Comp
 L Device:D_Schottky_Small D1
@@ -1318,4 +1290,45 @@ Wire Wire Line
 	4400 1400 4050 1400
 Connection ~ 4050 1400
 NoConn ~ 4850 4000
+Wire Wire Line
+	6700 4300 6450 4300
+Wire Wire Line
+	4500 3400 4850 3400
+Wire Wire Line
+	4850 3500 4500 3500
+NoConn ~ 6450 3500
+NoConn ~ 6450 3400
+NoConn ~ 6450 2500
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5D5044ED
+P 8300 3500
+F 0 "J4" H 8409 3786 50  0000 C CNN
+F 1 "IO" H 8409 3693 50  0000 C CNN
+F 2 "" H 8300 3500 50  0001 C CNN
+F 3 "~" H 8300 3500 50  0001 C CNN
+	1    8300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5D520F05
+P 8300 3950
+F 0 "J6" H 8409 4136 50  0000 C CNN
+F 1 "WS281x" H 8409 4043 50  0000 C CNN
+F 2 "" H 8300 3950 50  0001 C CNN
+F 3 "~" H 8300 3950 50  0001 C CNN
+	1    8300 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3950 8500 3950
+Wire Wire Line
+	8500 4050 8850 4050
+Wire Notes Line
+	8200 4150 8200 3150
+Wire Notes Line
+	8200 3150 10050 3150
+Wire Notes Line
+	10050 3150 10050 4150
 $EndSCHEMATC
