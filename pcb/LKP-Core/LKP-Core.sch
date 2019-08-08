@@ -525,7 +525,6 @@ I2C_SCL
 NoConn ~ 6450 4600
 NoConn ~ 6450 4500
 NoConn ~ 6450 4400
-NoConn ~ 6450 4200
 Wire Wire Line
 	6700 5500 6450 5500
 Wire Wire Line
@@ -590,7 +589,7 @@ F 4 "4D02WGJ0561TCE" V 7100 3100 20  0000 C CNN "Part Number"
 	1    6900 3100
 	0    -1   1    0   
 $EndComp
-Text Label 6700 4300 2    50   ~ 0
+Text Label 6600 4300 2    50   ~ 0
 INT
 Text Label 7200 2600 2    50   ~ 0
 LED
@@ -1291,8 +1290,6 @@ Wire Wire Line
 Connection ~ 4050 1400
 NoConn ~ 4850 4000
 Wire Wire Line
-	6700 4300 6450 4300
-Wire Wire Line
 	4500 3400 4850 3400
 Wire Wire Line
 	4850 3500 4500 3500
@@ -1331,4 +1328,53 @@ Wire Notes Line
 	8200 3150 10050 3150
 Wire Notes Line
 	10050 3150 10050 4150
+Wire Wire Line
+	6450 4200 6700 4200
+Wire Wire Line
+	6450 4300 6600 4300
+Text Label 6700 4600 1    50   ~ 0
+LED_STAT
+Wire Wire Line
+	6700 4200 6700 4600
+Text Label 9050 4450 2    50   ~ 0
+LED_STAT
+$Comp
+L Device:R_Small R1
+U 1 1 5D57FBCF
+P 8550 4450
+F 0 "R1" V 8351 4450 50  0000 C CNN
+F 1 "1k" V 8444 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 4450 50  0001 C CNN
+F 3 "~" H 8550 4450 50  0001 C CNN
+	1    8550 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 4450 9050 4450
+Wire Wire Line
+	8450 4450 8250 4450
+$Comp
+L power:GND #PWR0104
+U 1 1 5D59BA60
+P 7950 4450
+F 0 "#PWR0104" H 7950 4200 50  0001 C CNN
+F 1 "GND" V 7955 4320 50  0000 R CNN
+F 2 "" H 7950 4450 50  0001 C CNN
+F 3 "" H 7950 4450 50  0001 C CNN
+	1    7950 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 4450 7950 4450
+$Comp
+L Device:LED_Small D2
+U 1 1 5D57DFAF
+P 8150 4450
+F 0 "D2" H 8150 4690 50  0000 C CNN
+F 1 "Yellow" H 8150 4597 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 8150 4450 50  0001 C CNN
+F 3 "~" V 8150 4450 50  0001 C CNN
+	1    8150 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
