@@ -470,9 +470,7 @@ Text Label 7350 4900 2    50   ~ 0
 E1_13
 Text Label 7350 4800 2    50   ~ 0
 E1_12
-Wire Wire Line
-	6700 5200 6450 5200
-Text Label 6700 5200 2    50   ~ 0
+Text Label 6950 5300 2    50   ~ 0
 S1_SH
 Text Label 6700 5400 2    50   ~ 0
 S0_7
@@ -535,7 +533,7 @@ Wire Wire Line
 	4850 2600 4600 2600
 Wire Wire Line
 	4850 2500 4600 2500
-Text Label 4600 3200 0    50   ~ 0
+Text Label 4050 3300 0    50   ~ 0
 S0_SH
 Text Label 4600 3100 0    50   ~ 0
 S0_15
@@ -1372,9 +1370,41 @@ U 1 1 5D57DFAF
 P 8150 4450
 F 0 "D2" H 8150 4690 50  0000 C CNN
 F 1 "Yellow" H 8150 4597 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 8150 4450 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 8150 4450 50  0001 C CNN
 F 3 "~" V 8150 4450 50  0001 C CNN
 	1    8150 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5D4F3AAE
+P 6550 5200
+F 0 "R4" V 6550 5200 50  0000 C CNN
+F 1 "560" V 6650 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 5200 50  0001 C CNN
+F 3 "~" H 6550 5200 50  0001 C CNN
+	1    6550 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 5200 6650 5300
+Wire Wire Line
+	6650 5300 6950 5300
+$Comp
+L Device:R_Small R3
+U 1 1 5D508BD8
+P 4400 3300
+F 0 "R3" V 4201 3300 50  0000 C CNN
+F 1 "560" V 4294 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3200 4600 3300
+Wire Wire Line
+	4600 3300 4500 3300
+Wire Wire Line
+	4300 3300 4050 3300
 $EndSCHEMATC
