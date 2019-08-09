@@ -323,7 +323,7 @@ U 1 1 5D46FAA8
 P 1500 3700
 F 0 "J1" H 1550 4320 50  0000 C CNN
 F 1 "Intercon L" H 1550 4227 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical_SMD" H 1500 3700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 1500 3700 50  0001 C CNN
 F 3 "~" H 1500 3700 50  0001 C CNN
 	1    1500 3700
 	1    0    0    -1  
@@ -334,7 +334,7 @@ U 1 1 5D470DBD
 P 2650 3700
 F 0 "J2" H 2700 4320 50  0000 C CNN
 F 1 "Intercon R" H 2700 4227 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical_SMD" H 2650 3700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 2650 3700 50  0001 C CNN
 F 3 "~" H 2650 3700 50  0001 C CNN
 	1    2650 3700
 	1    0    0    -1  
@@ -1407,4 +1407,31 @@ Wire Wire Line
 	4600 3300 4500 3300
 Wire Wire Line
 	4300 3300 4050 3300
+$Comp
+L Device:CP_Small C12
+U 1 1 5D5BF537
+P 3500 1250
+F 0 "C12" H 3590 1297 50  0000 L CNN
+F 1 "10uF" H 3590 1204 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 3500 1250 50  0001 C CNN
+F 3 "~" H 3500 1250 50  0001 C CNN
+	1    3500 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1050 3500 1150
+Connection ~ 3500 1050
+$Comp
+L power:GND #PWR01
+U 1 1 5D5CE4B4
+P 3500 1400
+F 0 "#PWR01" H 3500 1150 50  0001 C CNN
+F 1 "GND" H 3505 1224 50  0000 C CNN
+F 2 "" H 3500 1400 50  0001 C CNN
+F 3 "" H 3500 1400 50  0001 C CNN
+	1    3500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1350 3500 1400
 $EndSCHEMATC
