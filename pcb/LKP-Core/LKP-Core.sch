@@ -339,32 +339,32 @@ F 3 "~" H 2650 3700 50  0001 C CNN
 	1    2650 3700
 	1    0    0    -1  
 $EndComp
-Text Label 2050 3300 2    50   ~ 0
+Text Label 1050 4100 0    50   ~ 0
 E0_0
-Text Label 1050 3400 0    50   ~ 0
+Text Label 2050 4000 2    50   ~ 0
 E0_1
 Wire Wire Line
 	2050 3300 1800 3300
 Wire Wire Line
 	1050 3400 1300 3400
-Text Label 2050 3400 2    50   ~ 0
+Text Label 1050 4000 0    50   ~ 0
 E0_2
-Text Label 1050 3500 0    50   ~ 0
+Text Label 2050 3900 2    50   ~ 0
 E0_3
 Wire Wire Line
 	2050 3400 1800 3400
 Wire Wire Line
 	1050 3500 1300 3500
-Text Label 2050 3500 2    50   ~ 0
+Text Label 1050 3900 0    50   ~ 0
 E0_4
-Text Label 1050 3600 0    50   ~ 0
+Text Label 2050 3800 2    50   ~ 0
 E0_5
 Wire Wire Line
 	1800 3500 2050 3500
 Wire Wire Line
 	1300 3600 1050 3600
 Text Label 3350 2800 0    50   ~ 0
-E0_12
+E0_3
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 5D4B4D65
@@ -395,7 +395,7 @@ $EndComp
 Wire Wire Line
 	4200 2400 3950 2400
 Text Label 3950 2400 0    50   ~ 0
-E0_8
+E0_7
 Wire Wire Line
 	8250 5400 8000 5400
 Wire Wire Line
@@ -405,13 +405,13 @@ Wire Wire Line
 Wire Wire Line
 	8000 5100 8250 5100
 Text Label 8250 5400 2    50   ~ 0
-E0_7
+E0_8
 Text Label 8250 5300 2    50   ~ 0
-E0_6
+E0_9
 Text Label 8250 5200 2    50   ~ 0
-E0_5
+E0_10
 Text Label 8250 5100 2    50   ~ 0
-E0_4
+E0_11
 Wire Wire Line
 	6450 4000 6800 4000
 Wire Wire Line
@@ -473,7 +473,7 @@ E1_12
 Text Label 6950 5300 2    50   ~ 0
 S1_SH
 Text Label 6700 5400 2    50   ~ 0
-S0_7
+S0_8
 Wire Wire Line
 	6700 5100 6450 5100
 Wire Wire Line
@@ -503,7 +503,7 @@ $EndComp
 Wire Wire Line
 	6450 3700 7150 3700
 Text Label 4600 2400 0    50   ~ 0
-S0_8
+S0_7
 $Comp
 L Device:R_Pack04 RN4
 U 1 1 5D47DCE1
@@ -536,29 +536,29 @@ Wire Wire Line
 Text Label 4050 3300 0    50   ~ 0
 S0_SH
 Text Label 4600 3100 0    50   ~ 0
-S0_15
+S0_0
 Text Label 4600 3000 0    50   ~ 0
-S0_14
+S0_1
 Text Label 4600 2900 0    50   ~ 0
-S0_13
+S0_2
 Text Label 4600 2800 0    50   ~ 0
-S0_12
+S0_3
 Text Label 4600 2700 0    50   ~ 0
-S0_11
+S0_4
 Text Label 4600 2600 0    50   ~ 0
-S0_10
+S0_5
 Text Label 4600 2500 0    50   ~ 0
-S0_9
+S0_6
 Text Label 6700 5500 2    50   ~ 0
-S0_8
+S0_7
 Text Label 6700 4800 2    50   ~ 0
 S1_12
 Text Label 6700 4000 2    50   ~ 0
-S0_6
+S0_9
 Text Label 6700 3900 2    50   ~ 0
-S0_5
+S0_10
 Text Label 6700 3800 2    50   ~ 0
-S0_4
+S0_11
 Wire Wire Line
 	7350 3200 7100 3200
 Wire Wire Line
@@ -568,13 +568,13 @@ Wire Wire Line
 Wire Wire Line
 	7100 2900 7350 2900
 Text Label 7350 3200 2    50   ~ 0
-E0_3
+E0_12
 Text Label 7350 3100 2    50   ~ 0
-E0_2
+E0_13
 Text Label 7350 3000 2    50   ~ 0
-E0_1
+E0_14
 Text Label 7350 2900 2    50   ~ 0
-E0_0
+E0_15
 $Comp
 L Device:R_Pack04 RN6
 U 1 1 5D47B8EA
@@ -600,13 +600,13 @@ Wire Wire Line
 Wire Wire Line
 	6450 2900 6700 2900
 Text Label 6700 3200 2    50   ~ 0
-S0_3
+S0_12
 Text Label 6700 3100 2    50   ~ 0
-S0_2
+S0_13
 Text Label 6700 3000 2    50   ~ 0
-S0_1
+S0_14
 Text Label 6700 2900 2    50   ~ 0
-S0_0
+S0_15
 $Comp
 L power:GND #PWR018
 U 1 1 5D45DAEF
@@ -728,11 +728,11 @@ F 4 "CY8C4246AZI-M445" H 5650 4000 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 Text Label 3350 2900 0    50   ~ 0
-E0_13
+E0_2
 Text Label 3350 3000 0    50   ~ 0
-E0_14
+E0_1
 Text Label 3350 3100 0    50   ~ 0
-E0_15
+E0_0
 Wire Wire Line
 	3350 2800 3600 2800
 Wire Wire Line
@@ -741,25 +741,25 @@ Wire Wire Line
 	3350 3000 3600 3000
 Wire Wire Line
 	3600 3100 3350 3100
-Text Label 2050 3600 2    50   ~ 0
-E0_6
-Text Label 1050 3700 0    50   ~ 0
-E0_7
-Text Label 2050 3700 2    50   ~ 0
-E0_8
 Text Label 1050 3800 0    50   ~ 0
+E0_6
+Text Label 2050 3700 2    50   ~ 0
+E0_7
+Text Label 1050 3700 0    50   ~ 0
+E0_8
+Text Label 2050 3600 2    50   ~ 0
 E0_9
-Text Label 2050 3800 2    50   ~ 0
+Text Label 1050 3600 0    50   ~ 0
 E0_10
-Text Label 1050 3900 0    50   ~ 0
+Text Label 2050 3500 2    50   ~ 0
 E0_11
-Text Label 2050 3900 2    50   ~ 0
+Text Label 1050 3500 0    50   ~ 0
 E0_12
-Text Label 1050 4000 0    50   ~ 0
+Text Label 2050 3400 2    50   ~ 0
 E0_13
-Text Label 2050 4000 2    50   ~ 0
+Text Label 1050 3400 0    50   ~ 0
 E0_14
-Text Label 1050 4100 0    50   ~ 0
+Text Label 2050 3300 2    50   ~ 0
 E0_15
 Wire Wire Line
 	1300 3700 1050 3700
@@ -1061,9 +1061,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 5000 4850 5000
 Text Label 3950 2500 0    50   ~ 0
-E0_9
+E0_6
 Text Label 3950 2600 0    50   ~ 0
-E0_10
+E0_5
 Wire Wire Line
 	3950 2500 4200 2500
 Wire Wire Line
@@ -1071,7 +1071,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2700 4200 2700
 Text Label 3950 2700 0    50   ~ 0
-E0_11
+E0_4
 Wire Wire Line
 	4000 2900 4850 2900
 Wire Wire Line
