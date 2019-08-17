@@ -1,5 +1,7 @@
 # LKP
 
+レンくんピアノ (Len-kun Piano)
+
 Capacitive touch slider controller for rhythm games.
 
 # Contents
