@@ -14,4 +14,4 @@ Microcontroller board for use with LKP electrode boards. Supports up to 32 chann
 
 Electrode board for Project DIVA Future Tone slider controller. Works as a 2-tile setup i.e. consists a left tile and a right tile that plug into the LKP-Core.
 
-Requires KiCad version 6 (`supports kicad_pcb format >= 20190605`) for hatched fills.
+Requires KiCad version 6 (nightly) (supports `kicad_pcb format >= 20190605`) for hatched fills.
