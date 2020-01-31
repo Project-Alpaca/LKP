@@ -339,4 +339,15 @@ F 3 "" H 6300 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 4850 6300 5050
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E349CFA
+P 5800 3100
+F 0 "H3" H 5900 3146 50  0000 L CNN
+F 1 "MountingHole" H 5900 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 5800 3100 50  0001 C CNN
+F 3 "~" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
