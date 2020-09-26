@@ -4,6 +4,8 @@
 
 Capacitive touch slider controller for rhythm games.
 
+![LKP](./docs/LKP.webp)
+
 # Contents
 
 ## pcb/LKP-Core
