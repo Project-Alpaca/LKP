@@ -1,4 +1,4 @@
-update=Thu 08 Aug 2019 04:09:14 AM ADT
+update=Sat 26 Sep 2020 12:20:20 AM ADT
 version=1
 last_client=kicad
 [general]
