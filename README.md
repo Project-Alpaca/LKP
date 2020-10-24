@@ -53,4 +53,5 @@ Requires KiCad version 6 (nightly) (supports `kicad_pcb format >= 20190605`) for
 
 # Known issues / Erratas
 
-- (LKP-Core v1.0) When used with LKP-Assy, connector J4, J5 and J6 may collide with the bottom of LKP-Assy. A workaround would be soldering all the specified connectors on the back side of the PCB instead.
+- (LKP-Core v1.0) The reverse voltage protection diode (D1) does not protect C12. Proceed with caution when connecting the power to make sure the polarity is correct.
+- (LKP-Core v1.1) When used with LKP-Assy, connector J4, J5 and J6 may collide with the bottom of LKP-Assy. A workaround would be soldering all the specified connectors on the back side of the PCB instead.
