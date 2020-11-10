@@ -28,7 +28,7 @@ Requires KiCad version 6 (nightly) (supports `kicad_pcb format >= 20190605`) for
 
 ## LKP-Core
 
-- **C1, C4, C6, C10**: Generic 100nF 0603 X5R ceramic capacitor. (I used `CC0603KRX5R8BB105`)
+- **C1, C4, C6, C10**: Generic 1uF 0603 X5R ceramic capacitor. (I used `CC0603KRX5R8BB105`)
 - **C2, C3, C5, C8, C11**: Generic 100nF 0603 ceramic capacitor. (I used `CL10B104KA8NNNC`)
 - **C7**: `GRM2195C1H103JA01D`
 - **C9**: `GCM1885C1H222JA16D`
