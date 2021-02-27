@@ -51,6 +51,10 @@ Requires KiCad version 6 (nightly) (supports `kicad_pcb format >= 20190605`) for
 
 - **J1**: Straight male .1" SMD header 2x9 (**without** the notches on the bottom).
 
+# Powering
+
+By default LKP expects 5V power. Using lower supply voltage down to 1.8V is possible by modifying the power specs in LKP-FW and adding a level shifter module to the WS281x driver pin (labelled as LED on board). Reference voltage for I/O can be approximated by tapping into the VTARG pin on the SWD port.
+
 # Known issues / Erratas
 
 - (LKP-Core v1.0) The reverse voltage protection diode (D1) does not protect C12. Proceed with caution when connecting the power to make sure the polarity is correct.
