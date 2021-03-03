@@ -1435,4 +1435,6 @@ Wire Notes Line
 	3200 1650 8350 1650
 Text Notes 3250 600  0    50   ~ 0
 Power
+Text Notes 9500 3400 0    50   ~ 0
+SCL == RX\nSDA == TX
 $EndSCHEMATC
