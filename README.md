@@ -54,14 +54,16 @@ Requires KiCad version 6 (nightly) (supports `kicad_pcb format >= 20190605`) for
 
 ## pcb/LKP-IF-Qwiic
 
-SparkFun Qwiic®/Adafruit STEMMA® QT interface for LKP-Core. Converts between 5V logic used by LKP-Core and 3.3V logic used by Qwiic®/STEMMA® QT. 
+SparkFun [Qwiic®][qwiic]/Adafruit [STEMMA® QT][stemmaqt] interface for LKP-Core. Converts between 5V logic used by LKP-Core and 3.3V logic used by Qwiic®/STEMMA® QT.
 
-It is also possible to use it to convert UART signal for main microcontroller running at \< 4.8V. To set it up:
+It is also possible to use it to convert UART signal for main microcontroller running between 1.65V and 3.6V. To set it up:
 
 1. Break out the signals on any Qwiic® connector using a Qwiic® breakout board.
-2. Connect the 3.3V pin to microcontroller's I/O voltage reference (must be \< 4.8V).
-3. Connect SDA (TX) to RX and SCL (RX) to TX.
+2. Connect the 3.3V pin to microcontroller's I/O voltage reference (must be between 1.65V and 3.6V).
+3. Connect SDA (blue wire, UART TX) to RX and SCL (yellow wire, UART RX) to TX.
 4. The other Qwiic® port should be left unconnected.
+
+Note that although the low side of the level shifter can take any voltage between 1.65V and 3.6V, 3.3V must be used in order to maintain compatibility with other Qwiic®-compatible systems.
 
 # BOM
 
@@ -106,3 +108,6 @@ By default LKP expects 5V power. Using lower supply voltage down to 1.8V is poss
 
 - (LKP-Core v1.0) The reverse voltage protection diode (D1) does not protect C12. Proceed with caution when connecting the power to make sure the polarity is correct.
 - (LKP-Core v1.1) When used with LKP-Assy, connector J4, J5 and J6 may collide with the bottom of LKP-Assy. A workaround would be soldering all the specified connectors on the back side of the PCB instead.
+
+[qwiic]: https://www.sparkfun.com/qwiic
+[stemmaqt]: https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
