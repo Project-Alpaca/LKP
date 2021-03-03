@@ -1,3 +1,5 @@
+<img src="./docs/lkp-logo.svg" align="right">lkp-logo</img>
+
 # LKP
 
 レンくんピアノ (Len-kun Piano)
