@@ -1,4 +1,4 @@
-<img src="./docs/lkp-logo.svg" align="right">lkp-logo</img>
+<img src="./docs/lkp-logo.svg" align="right" alt="lkp-logo" />
 
 # LKP
 
