@@ -100,8 +100,9 @@ Note that although the low side of the level shifter can take any voltage betwee
 - **C1, C2**: Generic 100nF 0603 ceramic capacitor. (I used `CL10B104KA8NNNC`).
 - **D1**: Generic SOD-123 Schottky diode (`MBR0520L`).
 - **J1, J2**: JST SH SM04B.
-- **J3**: Straight female .1" header 1x5.
-- **J4**: Straight female .1" header 1x4.
+- **J3**: Straight female (10.5mm stacking or regular) .1" header 1x5.
+- **J4**: Straight female (10.5mm stacking or regular) .1" header 1x4.
+- **J5**: Straight or angled male .1" header header 1x2 (Optional if using stacking headers for J3-4).
 - **U1**: `TCA9406DCTR`.
 
 # Powering
