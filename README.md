@@ -92,7 +92,7 @@ Note that although the low side of the level shifter can take any voltage betwee
 
 ## LKP-Diva-Electrode-Tile and LKP-Chu-Electrode-Tile
 
-- **J1**: Straight male .1" SMD header 2x9 (**without** notches at the bottom).
+- **J1**: Straight male .1" SMD header 2x9 (**without** bumps at the bottom).
   - This can be hard to find. For small scale DIY manufacturing try searching "pin header double smd" on aliexpress.
 
 ## LKP-IF-Qwiic
