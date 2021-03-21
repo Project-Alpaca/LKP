@@ -1,9 +1,0 @@
-(module "CapSense_Electrode_14x38mm" (layer F.Cu) (tedit 5D3A5CF2)
-  (fp_text reference "REF**" (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "CapSense_Electrode_14x38mm" (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad "1" smd roundrect (at 0 0) (size 14 38) (layers "F.Cu") (roundrect_rratio 0.075))
-)

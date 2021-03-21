@@ -1,0 +1,13 @@
+(footprint "CapSense_Electrode_14.6x39mm" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 6057D255)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8c4b28cb-ae67-4e26-940d-690b51266539)
+  )
+  (fp_text value "CapSense_Electrode_14x38mm" (at 0 -0.5) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7f2a001f-362c-40c0-87ae-11f47b579ec9)
+  )
+  (pad "1" smd roundrect (at 0 0) (locked) (size 14.8 39) (layers "F.Cu") (roundrect_rratio 0.075) (tstamp db7691dd-bc2c-4b2d-88b0-c75e9b749eac))
+)

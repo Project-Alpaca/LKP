@@ -39,4 +39,11 @@ bom/
 # Gerber export output
 out/
 
+# New archive backups
+
+*-backups
+
+# New local settings
+*.kicad_prl
+
 # End of https://www.gitignore.io/api/kicad
