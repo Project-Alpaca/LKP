@@ -14,6 +14,8 @@ Capacitive touch slider controller for rhythm games.
 
 Microcontroller board for use with LKP electrode boards. Supports up to 32 channel of self capacitance input. Includes a WS281x LED driver channel with protection resistor. Supports I2C or UART as communication methods.
 
+For sample firmware for use with LKP-Core, see [LKP-FW](https://github.com/Project-Alpaca/LKP-FW).
+
 ### Pin mapping
 
 I/O port:
