@@ -5,6 +5,11 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "LKP Chu Electrode Tile")
+    (rev "1.1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -591,7 +596,7 @@
   (gr_line (start 256.25 41) (end 40.25 41) (layer "Edge.Cuts") (width 0.1) (tstamp ce5c92c4-9f1a-4a88-9e5d-ace32a526afc))
   (gr_line (start 40.25 41) (end 40.25 131) (layer "Edge.Cuts") (width 0.1) (tstamp ddfbbb6c-6f22-421b-8e30-40b2b0976ce2))
   (gr_line (start 40.25 131) (end 256.25 131) (layer "Edge.Cuts") (width 0.1) (tstamp e46dce14-9d80-4da5-9d37-44e62a1053cb))
-  (gr_text "LKP-Chu Electrode Tile\n2x8 V1.0" (at 152.25 86) (layer "B.SilkS") (tstamp cb199e0b-c1e5-49a3-914d-4c94e74c9509)
+  (gr_text "LKP-Chu Electrode Tile\n2x8 V1.1" (at 152.25 86) (layer "B.SilkS") (tstamp cb199e0b-c1e5-49a3-914d-4c94e74c9509)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "Left" (at 44.25 53) (layer "F.SilkS") (tstamp 364be8cc-9df4-4b1e-ab1f-6aacf9244f25)
