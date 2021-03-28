@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CY8C4147AZI-S455
+D PSoC 4100S series, 48MHz CPU, 128KB Flash, 16KB SRAM, 64-TQFP Package (Pitch 0.5mm)
+K Cypress Microcontroller Arm CapSense IDAC LCD CAN
+F https://www.cypress.com/file/139956/download
+$ENDCMP
+#
 $CMP CY8C4245AXI-M445
 D PSoC 4200M series, 48MHz CPU, 32KB Flash, 4KB SRAM, 64-TQFP Package (Pitch 0.8mm)
 K Cypress Microcontroller Arm CapSense LCD
