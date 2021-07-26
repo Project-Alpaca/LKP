@@ -46,7 +46,7 @@ SWD connector:
 
 ## pcb/LKP-Core-EasyAccess
 
-A variant of LKP-Core that focuses on improved accessibility for arcade controller DIY hobbyists with only basic (through hole) soldering skills. All parts used in this variant are available for use with [JLCPCB Assembly](https://jlcpcb.com/smt-assembly) service, thus enables the possibility of ordering fully assembled and working boards straight from JLCPCB.
+A variant of LKP-Core that originally focused on improved accessibility for arcade controller DIY hobbyists with only basic (through hole) soldering skills. All parts used in this variant (once the chip shortage situations improve) are available for use with [JLCPCB Assembly](https://jlcpcb.com/smt-assembly) service, thus enables the possibility of ordering fully assembled and working boards straight from JLCPCB. Even without the assembly service working at the moment, the chip used in this variant can be purchased from LCSC in low quantity for a lot less money compare to the original chip on Digi-key, so it also acts as a budget option without sacrificing performance in significant ways.
 
 ## pcb/LKP-Diva-Electrode-Tile
 
