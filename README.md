@@ -46,6 +46,8 @@ SWD connector:
 
 ## pcb/LKP-Core-EasyAccess
 
+**IMPORTANT**: WS281x LED driver will not work on this variant. See errata.
+
 A variant of LKP-Core that originally focused on improved accessibility for arcade controller DIY hobbyists with only basic (through hole) soldering skills. All parts used in this variant (once the chip shortage situations improve) are available for use with [JLCPCB Assembly](https://jlcpcb.com/smt-assembly) service, thus enables the possibility of ordering fully assembled and working boards straight from JLCPCB. Even without the assembly service working at the moment, the chip used in this variant can be purchased from LCSC in low quantity for a lot less money compare to the original chip on Digi-key, so it also acts as a budget option without sacrificing performance in significant ways.
 
 ## pcb/LKP-Diva-Electrode-Tile
@@ -119,6 +121,7 @@ By default LKP expects 5V power. Using lower supply voltage down to 1.8V is poss
 
 - (LKP-Core v1.0) The reverse voltage protection diode (D1) does not protect C12. Proceed with caution when connecting the power to make sure the polarity is correct.
 - (LKP-Core v1.1) When used with LKP-Assy, connector J4, J5 and J6 may collide with the bottom of LKP-Assy. A workaround would be soldering all the specified connectors on the back side of the PCB instead. Also, when using LKP-IF-Qwiic, J4 and J5 must be soldered on the back side.
+- (LKP-Core-EasyAccess v1.2-E) Due to an oversight when choosing chips for this board, it lacks the necessary hardware features for the WS281x driver pin to function (i.e. UDB). A software workaround might be possible (with e.g. SPI DMA like FastLED Arduino library) but it might not be cost effective to develop it further.
 
 [qwiic]: https://www.sparkfun.com/qwiic
 [stemmaqt]: https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
