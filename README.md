@@ -46,7 +46,7 @@ SWD connector:
 
 ## pcb/LKP-Core-EasyAccess
 
-**IMPORTANT**: WS281x LED driver will not work on this variant. See errata.
+**IMPORTANT**: WS281x LED driver will not work on this variant. See errata. This variant is only included for documentation purposes and will no longer receive updates.
 
 A variant of LKP-Core that originally focused on improved accessibility for arcade controller DIY hobbyists with only basic (through hole) soldering skills. All parts used in this variant (once the chip shortage situations improve) are available for use with [JLCPCB Assembly](https://jlcpcb.com/smt-assembly) service, thus enables the possibility of ordering fully assembled and working boards straight from JLCPCB. Even without the assembly service working at the moment, the chip used in this variant can be purchased from LCSC in low quantity for a lot less money compare to the original chip on Digi-key, so it also acts as a budget option without sacrificing performance in significant ways.
 
@@ -54,13 +54,9 @@ A variant of LKP-Core that originally focused on improved accessibility for arca
 
 Electrode board for Project DIVA Future Tone slider controller. Works as a 2-tile setup. Both tiles use the same design, with right tile being a 180 degree rotated version of the left tile.
 
-Requires KiCad version 5.99 (nightly) (supports `kicad_pcb format >= 20210228`) for hatched fills.
-
 ## pcb/LKP-Chu-Electrode-Tile
 
 Electrode board for Chunithm slider controller. Works the same as its LKP-Diva counterpart.
-
-Requires KiCad version 5.99 (nightly) (supports `kicad_pcb format >= 20210228`) for hatched fills.
 
 ## pcb/LKP-IF-Qwiic
 
