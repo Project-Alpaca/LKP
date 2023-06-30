@@ -58,18 +58,18 @@ Electrode board for Project DIVA Future Tone slider controller. Works as a 2-til
 
 Electrode board for Chunithm slider controller. Works the same as its LKP-Diva counterpart.
 
-## pcb/LKP-IF-Qwiic
+## pcb/LKP-IF-QC
 
-SparkFun [Qwiic®][qwiic]/Adafruit [STEMMA® QT][stemmaqt] interface for LKP-Core. Converts between 5V logic used by LKP-Core and 3.3V logic used by Qwiic®/STEMMA® QT.
+I2C quick connect (compatible with SparkFun [Qwiic®][qwiic] and Adafruit [STEMMA® QT][stemmaqt]) interface for LKP-Core. Goes up to 1MHz for I2C connections and up to 24MHz for UART connections. Converts between 5V logic used by LKP-Core and 3.3V logic used by Qwiic®/STEMMA® QT.
 
 It is also possible to use it to convert UART signal for main microcontroller running between 1.65V and 3.6V. To set it up:
 
-1. Break out the signals on any Qwiic® connector using a Qwiic® breakout board.
+1. Break out the signals on any one of the Qwiic®/STEMMA® QT port on LKP-IF-QC using a Qwiic®/STEMMA® QT breakout board.
 2. Connect the 3.3V pin to microcontroller's I/O voltage reference (must be between 1.65V and 3.6V).
 3. Connect SDA (blue wire, UART TX) to RX and SCL (yellow wire, UART RX) to TX.
-4. The other Qwiic® port should be left unconnected.
+4. The other Qwiic®/STEMMA® QT port should be left unconnected.
 
-Note that although the low side of the level shifter can take any voltage between 1.65V and 3.6V, 3.3V must be used in order to maintain compatibility with other Qwiic®-compatible systems.
+Note that although the low side of the level shifter can take any voltage between 1.65V and 3.6V, 3.3V must be used in order to maintain compatibility with other Qwiic®/STEMMA® QT-compatible systems.
 
 # BOM
 
@@ -99,7 +99,7 @@ Note that although the low side of the level shifter can take any voltage betwee
 - **J1**: Straight male .1" SMD header 2x9 (**without** bumps at the bottom).
   - This can be hard to find. For small scale DIY manufacturing try searching "pin header double smd" on aliexpress.
 
-## LKP-IF-Qwiic
+## LKP-IF-QC
 
 - **C1, C2**: Generic 100nF 0603 ceramic capacitor. (I used `CL10B104KA8NNNC`).
 - **D1**: Generic SOD-123 Schottky diode (`MBR0520L`).
