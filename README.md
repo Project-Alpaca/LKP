@@ -119,5 +119,17 @@ By default LKP expects 5V power. Using lower supply voltage down to 1.8V is poss
 - (LKP-Core v1.1) When used with LKP-Assy, connector J4, J5 and J6 may collide with the bottom of LKP-Assy. A workaround would be soldering all the specified connectors on the back side of the PCB instead. Also, when using LKP-IF-Qwiic, J4 and J5 must be soldered on the back side.
 - (LKP-Core-EasyAccess v1.2-E) Due to an oversight when choosing chips for this board, it lacks the necessary hardware features for the WS281x driver pin to function (i.e. UDB). A software workaround might be possible (with e.g. SPI DMA like FastLED Arduino library) but it might not be cost effective to develop it further.
 
+# Special thanks
+
+- [@pol8139][pol8139]'s [controller build guide](https://pol.booth.pm/items/967132) for pointing me to PSoC as a potential solution and demonstrating the possibility of using a single PSoC 4 to drive the entire slider.
+- [@azhao12345][azhao12345] for providing the idea of modular and tiled electrode design.
+- [ryun][ryun] and [@somewhatlurker][somewhatlurker] for their reverse-engineering effort on 837-15275/15330 protocol and firmware, which form the basis of LKP-Serial and [sega-slider.md](https://gist.github.com/dogtopus/b61992cfc383434deac5fab11a458597).
+- [MarkH_61][markh61] for StripLightLib, which saved me quite a bit of headache of figuring out how to use UDB/datapath to drive huge array of NeoPixels without starving the CPU.
+
 [qwiic]: https://www.sparkfun.com/qwiic
 [stemmaqt]: https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
+[pol8139]: https://github.com/pol8139/
+[azhao12345]: https://gitlab.com/azhao12345/
+[ryun]: https://ryun.halfmoon.jp/touchslider/slider_protocol.html
+[markh61]: https://community.cypress.com/thread/16543
+[somewhatlurker]: https://github.com/somewhatlurker
